@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./task_7.css" type="text/css">
+</head>
+<body>
+    <button onclick="toDoList()" id="button-1">TO DO LIST</button>
+
+    <div id="maindiv">
+        <form id="addname">
+            <label name="task">Thursday</label>
+            <input id="input-1" placeholder="Add your todays task " >  
+        </form>
+        <button onclick="addName()" id="button-2">ADD</button>
+
+       
+        <ul id="listitem">
+            <li>
+                <span class="text">MEDITATION</span>
+                <span class="button-3">Delete</span>
+            </li>
+            <li>
+                <span class="text">EXERCISE</span>
+                <span class="button-3">Delete</span>             
+            </li>
+            <li >
+                <span class="text">READING</span>
+                <span class="button-3">Delete</span> 
+            </li>           
+        </ul>
+        
+
+        <form id="searchbox">
+            <input type="text" placeholder="Search for task">
+        </form>
+
+        <form>
+            <label id="hide">
+            <input type="checkbox" id="checkbox">
+           Hide the list</label>
+        </form>
+
+        
+    </div>
+    
+
+    <script src="./task_7.js"></script>
+</body>
+</html>
